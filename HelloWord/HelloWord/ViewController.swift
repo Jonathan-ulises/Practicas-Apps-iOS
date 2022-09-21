@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boton(_ sender: UIButton) {
+        texto.resignFirstResponder()
+        
         // Definicion de la alerta
         let alerta = UIAlertController(title: "Bienvenido", message: texto.text , preferredStyle:
                                         UIAlertController.Style.alert)
