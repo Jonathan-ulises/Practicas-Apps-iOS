@@ -121,6 +121,7 @@
 				CF47231B28DB52ED00CD6689 /* LaunchScreen.storyboard */,
 				CF47231E28DB52ED00CD6689 /* Info.plist */,
 				CF47234428DB5EFC00CD6689 /* SegundoStoryboard.storyboard */,
+				CF7720FD28E33E4A007BD19A /* TercerStoryboard.storyboard */,
 				CF47234B28DB639A00CD6689 /* segundo */,
 				CF77210128E34151007BD19A /* tercero */,
 			);
@@ -166,7 +167,6 @@
 		CF77210128E34151007BD19A /* tercero */ = {
 			isa = PBXGroup;
 			children = (
-				CF7720FD28E33E4A007BD19A /* TercerStoryboard.storyboard */,
 				CF7720FF28E34136007BD19A /* PtsViewController.swift */,
 			);
 			path = tercero;
