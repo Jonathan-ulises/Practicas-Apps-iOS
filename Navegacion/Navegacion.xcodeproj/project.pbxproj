@@ -18,6 +18,11 @@
 		CF47233428DB52EF00CD6689 /* NavegacionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47233328DB52EF00CD6689 /* NavegacionUITestsLaunchTests.swift */; };
 		CF47234128DB560F00CD6689 /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47234028DB560F00CD6689 /* SegundoViewController.swift */; };
 		CF47234328DB5C2700CD6689 /* TercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47234228DB5C2700CD6689 /* TercerViewController.swift */; };
+		CF47234528DB5EFC00CD6689 /* SegundoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF47234428DB5EFC00CD6689 /* SegundoStoryboard.storyboard */; };
+		CF47234728DB5F6900CD6689 /* PssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47234628DB5F6800CD6689 /* PssViewController.swift */; };
+		CF47234928DB62D400CD6689 /* SssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47234828DB62D400CD6689 /* SssViewController.swift */; };
+		CF7720FE28E33E4A007BD19A /* TercerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7720FD28E33E4A007BD19A /* TercerStoryboard.storyboard */; };
+		CF77210028E34136007BD19A /* PtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7720FF28E34136007BD19A /* PtsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		CF47233328DB52EF00CD6689 /* NavegacionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF47234028DB560F00CD6689 /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
 		CF47234228DB5C2700CD6689 /* TercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerViewController.swift; sourceTree = "<group>"; };
+		CF47234428DB5EFC00CD6689 /* SegundoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SegundoStoryboard.storyboard; sourceTree = "<group>"; };
+		CF47234628DB5F6800CD6689 /* PssViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PssViewController.swift; sourceTree = "<group>"; };
+		CF47234828DB62D400CD6689 /* SssViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SssViewController.swift; sourceTree = "<group>"; };
+		CF7720FD28E33E4A007BD19A /* TercerStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TercerStoryboard.storyboard; sourceTree = "<group>"; };
+		CF7720FF28E34136007BD19A /* PtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +115,14 @@
 			children = (
 				CF47231028DB52E500CD6689 /* AppDelegate.swift */,
 				CF47231228DB52E500CD6689 /* SceneDelegate.swift */,
-				CF47231428DB52E500CD6689 /* ViewController.swift */,
 				CF47231628DB52E500CD6689 /* Main.storyboard */,
+				CF47234A28DB635100CD6689 /* main */,
 				CF47231928DB52ED00CD6689 /* Assets.xcassets */,
 				CF47231B28DB52ED00CD6689 /* LaunchScreen.storyboard */,
 				CF47231E28DB52ED00CD6689 /* Info.plist */,
-				CF47234028DB560F00CD6689 /* SegundoViewController.swift */,
-				CF47234228DB5C2700CD6689 /* TercerViewController.swift */,
+				CF47234428DB5EFC00CD6689 /* SegundoStoryboard.storyboard */,
+				CF47234B28DB639A00CD6689 /* segundo */,
+				CF77210128E34151007BD19A /* tercero */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -131,6 +142,34 @@
 				CF47233328DB52EF00CD6689 /* NavegacionUITestsLaunchTests.swift */,
 			);
 			path = NavegacionUITests;
+			sourceTree = "<group>";
+		};
+		CF47234A28DB635100CD6689 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CF47231428DB52E500CD6689 /* ViewController.swift */,
+				CF47234228DB5C2700CD6689 /* TercerViewController.swift */,
+				CF47234028DB560F00CD6689 /* SegundoViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		CF47234B28DB639A00CD6689 /* segundo */ = {
+			isa = PBXGroup;
+			children = (
+				CF47234628DB5F6800CD6689 /* PssViewController.swift */,
+				CF47234828DB62D400CD6689 /* SssViewController.swift */,
+			);
+			path = segundo;
+			sourceTree = "<group>";
+		};
+		CF77210128E34151007BD19A /* tercero */ = {
+			isa = PBXGroup;
+			children = (
+				CF7720FD28E33E4A007BD19A /* TercerStoryboard.storyboard */,
+				CF7720FF28E34136007BD19A /* PtsViewController.swift */,
+			);
+			path = tercero;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF47231D28DB52ED00CD6689 /* LaunchScreen.storyboard in Resources */,
+				CF47234528DB5EFC00CD6689 /* SegundoStoryboard.storyboard in Resources */,
 				CF47231A28DB52ED00CD6689 /* Assets.xcassets in Resources */,
+				CF7720FE28E33E4A007BD19A /* TercerStoryboard.storyboard in Resources */,
 				CF47231828DB52E500CD6689 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF77210028E34136007BD19A /* PtsViewController.swift in Sources */,
+				CF47234928DB62D400CD6689 /* SssViewController.swift in Sources */,
 				CF47234328DB5C2700CD6689 /* TercerViewController.swift in Sources */,
 				CF47231528DB52E500CD6689 /* ViewController.swift in Sources */,
 				CF47231128DB52E500CD6689 /* AppDelegate.swift in Sources */,
+				CF47234728DB5F6900CD6689 /* PssViewController.swift in Sources */,
 				CF47234128DB560F00CD6689 /* SegundoViewController.swift in Sources */,
 				CF47231328DB52E500CD6689 /* SceneDelegate.swift in Sources */,
 			);

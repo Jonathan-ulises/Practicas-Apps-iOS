@@ -28,6 +28,30 @@
                                     <segue destination="fha-Ol-G9I" kind="show" identifier="irSegundo" id="KBh-H1-LH2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjN-Z7-fPu">
+                                <rect key="frame" x="121" y="447" width="180" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Navigation Controller">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DTL-xt-UcX" kind="show" id="DFy-xY-7Zi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IM0-da-gh1">
+                                <rect key="frame" x="134" y="527" width="156" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tab bar Controller">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ZAQ-nk-J8p" kind="show" id="8Ai-gN-7On"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -35,7 +59,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="54"/>
+            <point key="canvasLocation" x="-23.188405797101453" y="53.804347826086961"/>
+        </scene>
+        <!--TercerStoryboard-->
+        <scene sceneID="Ymx-2w-xjH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TercerStoryboard" id="ZAQ-nk-J8p" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zHa-4i-BMK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u3K-tg-Mh5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="439"/>
+        </scene>
+        <!--SegundoStoryboard-->
+        <scene sceneID="Je1-Sy-0DP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SegundoStoryboard" id="DTL-xt-UcX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Z9h-dx-OUr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8cf-2p-ucx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="229" y="468"/>
         </scene>
         <!--Segundo View Controller-->
         <scene sceneID="x03-7J-kmI">
